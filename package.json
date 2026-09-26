@@ -1,0 +1,21 @@
+{
+  "name": "phoenix-rises",
+  "version": "1.0.0",
+  "description": "The Phoenix Rises - Telegram tap-to-earn Mini App",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js",
+    "dev": "concurrently \"node server.js\" \"node bot.js\""
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
